@@ -1,0 +1,60 @@
+body{
+	background-color:#6dfce7;
+	font-family:Times New Roman;
+	font-size:22px;
+}
+
+nav{
+	background-color:white;
+	text-align:center;
+	
+}
+
+nav li {
+  display: inline;
+}
+
+nav ul li{
+	margin:0px 15px 0 15px;
+}
+
+nav ul li a:hover{
+	font-weight:bold;
+}
+
+p{
+	text-align:center;
+}
+
+h1{
+	text-align:center;
+}
+
+img{
+	margin-left:auto;
+	margin-right:auto;
+	width:40%;
+	height:35%;
+	display:flex;
+}
+
+
+#animacija {
+  opacity: 0;
+  animation: animacija 3s ease-in-out;  
+  animation-fill-mode:forwards;
+}
+
+@keyframes animacija {
+  100% {
+    opacity: 1; 
+  }
+}
+
+@media screen and (min-width: 300px) and (max-width: 450px) {
+	nav ul li{
+		display:block;
+	}
+}
+
+
